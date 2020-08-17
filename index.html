@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <meta name="author" content="Samhita Joshi">
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="s.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CopyCat</title>
+</head>
+<body>
+    <nav>
+        <div class="navbar">
+           <div class="container">
+             <span class="logo">
+                 <img src="pe.png" alt="Perfect Engineers">
+             </span>
+             <span>
+                <div class="d-inline-flex p-2 bd-highlight">
+                    <a href="https://infinitynbeyond.tech">About</a>
+                </div>
+                <div class="d-inline-flex p-2 bd-highlight">
+                    <a href="https://infinitynbeyond.tech">PE Mobile</a>
+                </div>
+                <div class="d-inline-flex p-2 bd-highlight">
+                    <a href="https://infinitynbeyond.tech">Developers</a>
+                </div>
+             </span>
+
+           </div>
+        </div>
+    </nav>
+    <main>
+        <div class="container">
+            <div class="content">
+                <div class="icon">
+                    <img src="./icon.svg" width="100px" alt="register">
+                </div>
+                <div class="info">
+                    <h4 align="center">Register with PE</h4>
+                    <p align="center">Enter the required details below</p>
+                </div>
+                <div class="details container">
+                    <form method="POST" action="https://infinitynbeyond.tech">
+                        <div class="row">
+                            <div class="col">   
+                              <input class="form-control" type="email" placeholder="Email Address" required>   
+                            </div>
+                            <div class="col">
+                                <div class="input-group mb-3">
+                                    <div class="input-group-prepend">
+                                      <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">+91</button>
+                                    </div>
+                                    <input class="form-control" type="tel" placeholder="Phone Number" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+                                  </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                          <div class="col">
+                            <input type="text" class="form-control" placeholder="First name" pattern="[A-Za-z]+" required>
+                          </div>
+                          <div class="col">
+                            <input type="text" class="form-control" placeholder="Last name" pattern="[A-Za-z]+" required>
+                          </div>
+                        </div>
+                        <div class="row meow">
+                            <div class="col">
+                            <div class="input-group">
+                                <select class="custom-select" id="inputGroupSelect04" aria-label="Example select with button addon" required>
+                                <option selected>Self/SME/Corporate</option>
+                                <option value="1">Government</option>
+                                <option value="2">Non-Profits</option>
+                                <option value="3">Personal Account</option>
+                                </select>
+                            </div>
+                        </div>
+                     </div>
+                        <div class="g-recaptcha" data-sitekey="6Lc-0r8ZAAAAAFZ1ioqMhe4BJc-mOE1uH3BfScHa"></div>
+                        <div class="button">
+                            <button type="button" class="btn btn-success">Next ></button>
+                        </div>
+                    </form>
+                </div>
+                <div class="wrong-fills">
+
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="body-font">
+            <div class="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-no-wrap flex-wrap flex-col">
+              <div class="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
+                <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
+                  <span class="ml-3 text-xl">Perfect Engineers</span>
+                </a>
+                <p>www.infinitynbeyond.tech</p>
+                <p>Some Fictional Place named Rensterville.</p>
+                <p>9876543210</p>
+              </div>
+              <div class="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">
+                <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+                  <nav class="list-none mb-10">
+                    <li>
+                      <a class="text-gray-600 hover:text-gray-800">Graphic Designing</a>
+                    </li>
+                    <li>
+                      <a class="text-gray-600 hover:text-gray-800">Voice Overs</a>
+                    </li>
+                    <li>
+                      <a class="text-gray-600 hover:text-gray-800">Content Writing</a>
+                    </li>
+                  </nav>
+                </div>
+                <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+                  <nav class="list-none mb-10">
+                    <li>
+                      <a class="text-gray-600 hover:text-gray-800">Engineering</a>
+                    </li>
+                    <li>
+                      <a class="text-gray-600 hover:text-gray-800">Programming</a>
+                    </li>
+                    <li>
+                      <a class="text-gray-600 hover:text-gray-800">Machine Learning</a>
+                    </li>
+                    <li>
+                      <a class="text-gray-600 hover:text-gray-800">Data Science</a>
+                    </li>
+                  </nav>
+                </div>
+                <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+                  <nav class="list-none mb-10">
+                    <li>
+                      <a class="text-gray-600 hover:text-gray-800">Support and FAQs</a>
+                    </li>
+                    <li>
+                      <a class="text-gray-600 hover:text-gray-800">Terms and Conditions</a>
+                    </li>
+                    <li>
+                      <a class="text-gray-600 hover:text-gray-800">Career</a>
+                    </li>
+                    <li>
+                      <a class="text-gray-600 hover:text-gray-800">Privacy Policy</a>
+                    </li>
+                  </nav>
+                </div>
+                
+              </div>
+            </div>
+            <div class="copyright">
+                <p align= "center">&copy2020<a href="https://infinitynbeyond.tech"> Samhita Joshi</a>. All Rights and Some Wrongs Reserved.</p>
+            </div>
+    </footer>
+    
+</body>
+</html>

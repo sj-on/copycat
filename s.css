@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logo img{
+    height: 70px;
+    width: 70px;
+}
+
+.navbar{
+    height: 12vh;
+    background-color: rgb(21, 172, 248);
+    width: 100vw;
+}
+
+.nav-links{
+    color: white;
+}
+.logo{
+    margin: 2px 10px;
+}
+
+.content{
+    height: 85vh;
+    width: 50vw;
+    background-color: rgb(248, 247, 247);
+    margin: 30px auto;
+    padding: 10px;
+}
+.icon{
+    width: 100px;
+    margin: 10px auto;
+}
+.details > form >.meow{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.g-recaptcha{
+    margin-bottom: 20px;
+}
+
+footer{
+    background-color: rgb(243, 241, 241);
+}
+
+.copyright>p{
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+span > .p-2 > a{
+    color: white;
+}
